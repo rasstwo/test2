@@ -6,6 +6,7 @@ body {
 }
 #i9oq79{
   padding:10px;
+  overflow:scroll;
   font-family:Georgia, serif;
   text-align:center;
   line-height:85px;
@@ -92,7 +93,6 @@ body {
 }
 #iztl5a{
   padding:10px;
-  overflow:scroll;
 }
 @keyframes fadeEffect{
   from{
