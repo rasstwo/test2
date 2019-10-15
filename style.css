@@ -1,1 +1,756 @@
-* { box-sizing: border-box; } body {margin: 0;}.heading{padding:0 10px 35px 10px;text-align:center;border-radius:0 0 0 0;line-height:0;text-decoration:underline;margin:-72.08px 0 19.92px 0;background-color:#ffffff;}.paragraph{padding:10px;text-align:center;background-image:url(none);background-repeat:repeat;background-position:left top;background-attachment:scroll;background-size:auto;background-color:#ffffff;border:0 solid black;float:none;}.bdg-sect{padding-top:100px;padding-bottom:100px;font-family:Helvetica, serif;background-color:#ffffff;border:5px solid black;}#i9oq79{padding:10px;font-family:Georgia, serif;text-align:center;line-height:85px;font-size:66px;width:1221px;margin:8px 0 0 0;float:none;border:#eeeeee #ffffff;color:#ffffff;height:99px;background-color:#5878db;}.row{display:flex;justify-content:flex-start;align-items:stretch;flex-wrap:nowrap;padding:10px;}.cell{min-height:75px;flex-grow:1;flex-basis:100%;}#ieyw{width:342px;height:127px;float:right;margin:0 16px 0 0;color:#000000;background-color:#5878db;}#i2ih8{float:none;color:#000000;background-color:#5878db;}#iuvb{background-color:#5878db;flex-basis:134.8%;}#ilor{float:none;background-color:#5878db;border:0 none #eeeeee;}#ilor{float:none;background-color:#5878db;border:1px solid black;}#i8c4an{padding:10px;font-family:Impact, Charcoal, sans-serif;font-size:14px;color:#ffffff;text-align:left;text-decoration:none;background-color:#395cba;border:3px solid rgb(255, 255, 255);border-radius:10px 10px 10px 10px;}#igmih6{flex-basis:457px;border-radius:0 0 0 0;border:6px solid black;float:none;}#ildlwg{background-color:#5878db;border:none black;}#izlkvs{list-style-type:disc;float:none;}#ivsbvz{padding:10px;float:none;}@keyframes fadeEffect{from{opacity:0;}to{opacity:1;}}@media (max-width: 768px){.row{flex-wrap:wrap;}}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#i9oq79{
+  padding:10px;
+  font-family:Georgia, serif;
+  text-align:center;
+  line-height:85px;
+  font-size:66px;
+  width:1221px;
+  margin:8px 0 0 0;
+  float:none;
+  border:#eeeeee #ffffff;
+  color:#ffffff;
+  height:99px;
+  background-color:#5878db;
+}
+.row{
+  display:flex;
+  justify-content:flex-start;
+  align-items:stretch;
+  flex-wrap:nowrap;
+  padding:10px;
+}
+.cell{
+  min-height:75px;
+  flex-grow:1;
+  flex-basis:100%;
+}
+#ieyw{
+  width:342px;
+  height:127px;
+  float:right;
+  margin:0 16px 0 0;
+  color:#000000;
+  background-color:#5878db;
+}
+#i2ih8{
+  float:none;
+  color:#000000;
+  background-color:#5878db;
+}
+#iuvb{
+  flex-basis:134.8%;
+  background-color:#5878db;
+}
+#ilor{
+  float:none;
+  background-color:#5878db;
+  border:0 none #eeeeee;
+}
+#ilor{
+  float:none;
+  background-color:#5878db;
+  border:1px solid black;
+}
+#i8c4an{
+  padding:10px;
+  font-family:Impact, Charcoal, sans-serif;
+  font-size:14px;
+  color:#ffffff;
+  text-align:left;
+  text-decoration:none;
+  background-color:#395cba;
+  border:3px solid rgb(255, 255, 255);
+  border-radius:10px 10px 10px 10px;
+}
+#igmih6{
+  flex-basis:457px;
+  border-radius:0 0 0 0;
+  border:6px solid black;
+  float:none;
+  background-color:#395cba;
+}
+#ildlwg{
+  border:none black;
+  background-color:#ffffff;
+}
+#izlkvs{
+  list-style-type:disc;
+  float:none;
+}
+#ivsbvz{
+  padding:10px;
+  float:none;
+}
+#ie2dog{
+  border:5px solid black;
+}
+#iztl5a{
+  padding:10px;
+  overflow: scroll:
+}
+#i9555l{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#itb0hd{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#icxvxj{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#imo1gf{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#izfoip{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i7b341{
+  line-height:1.38;
+  margin-left:36pt;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#insy6j{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ibc4vt{
+  line-height:1.38;
+  margin-left:36pt;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i9qqmg{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iuphhj{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i7xy3f{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i7puss{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i6279l{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i6z5kk{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iy2slv{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ipvipw{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i8a4db{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i445xz{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ic46do{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ifmdt6{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i0q0es{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ihbq51{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i3v7tw{
+  font-size:10pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-style:italic;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ilozyi{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ilwlqp{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-style:italic;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#idha0p{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i564u3{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i0q399{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i2xlh7{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#igkc7y{
+  margin-top:0;
+  margin-bottom:0;
+}
+#i9vo6v{
+  list-style-type:circle;
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre;
+}
+#i0kuc8{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#igwhal{
+  font-size:11pt;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iy12jf{
+  font-size:11pt;
+  background-color:transparent;
+  font-weight:400;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ictsga{
+  line-height:1.38;
+  margin-left:72pt;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#isoneo{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ivwk8c{
+  margin-top:0;
+  margin-bottom:0;
+}
+#iu0ejd{
+  list-style-type:circle;
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre;
+}
+#imll5k{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ii04yq{
+  font-size:11pt;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iovgib{
+  font-size:11pt;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ish5co{
+  list-style-type:circle;
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre;
+}
+#iolbp2{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ie8cjf{
+  font-size:11pt;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i8vi8b{
+  font-size:11pt;
+  background-color:transparent;
+  font-weight:400;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ize069{
+  list-style-type:circle;
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre;
+}
+#ied3qm{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ivz7kc{
+  font-size:11pt;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ifx6jl{
+  font-size:11pt;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ifr7ei{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#izefvu{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#io3zx7{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ivbc4q{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#iify5l{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#il98cj{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#io2suf{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#itz9qy{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ilho3p{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#itmtmh{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i4rweu{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i4xq64{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i2lbxy{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i1gtbh{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ijqt58{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i0z0oi{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ifsvef{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iu7784{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#iypgtv{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iwc6dk{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i3be03{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#imwt3i{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#infl67{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#itvy3c{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ioadw3{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iz1o1f{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#i7vcal{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ij5shv{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#ijpzp7{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ipxib2{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iaye8r{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#iex5q7{
+  line-height:1.38;
+  margin-top:0pt;
+  margin-bottom:0pt;
+}
+#ina6ei{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-weight:700;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#idfesv{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+#i5hxzm{
+  font-size:11pt;
+  font-family:Arial;
+  background-color:transparent;
+  font-variant-numeric:normal;
+  font-variant-east-asian:normal;
+  vertical-align:baseline;
+  white-space:pre-wrap;
+}
+@keyframes fadeEffect{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+@media (max-width: 768px){
+  .row{
+    flex-wrap:wrap;
+  }
+}
